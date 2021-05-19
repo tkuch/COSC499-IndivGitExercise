@@ -19,7 +19,7 @@ public class Sortable
     {
         String spacer = "------------------------------------------------------------------"; // for console display purposes
         System.out.println(spacer);
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in); // open scanner
         System.out.println("Choose between a String and an Integer array list. [STRING/INTEGER]: ");
         var choice = sc.nextLine().toUpperCase(); // set user input to uppercase for check
         System.out.println(spacer);
