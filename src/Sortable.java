@@ -21,7 +21,7 @@ public class Sortable
         String spacer = "------------------------------------------------------------------"; // for console display purposes
         System.out.println(spacer);
         Scanner sc = new Scanner(System.in);
-        System.out.println("Choose between a String and an Integer array. [STRING/INTEGER]: ");
+        System.out.println("Choose between a String and an Integer array list. [STRING/INTEGER]: ");
         var choice = sc.nextLine().toUpperCase(); // set user input to uppercase for check
         System.out.println(spacer);
 
@@ -31,9 +31,9 @@ public class Sortable
                 addString(sc.nextLine());
             }
             System.out.println(spacer);
-            System.out.printf("Inputted array[] : %s%n", stringList); //display list before sort
+            System.out.printf("Inputted list : %s%n", stringList); //display list before sort
             Collections.sort(stringList); // sort list
-            System.out.printf("Sorted array[]   : %s%n", stringList); //display list after sort
+            System.out.printf("Sorted list   : %s%n", stringList); //display list after sort
         }
         else if (isIntegerChoice(choice)) { // if the user selected the "INTEGER" list option
             for (int i = 0; i < 5; i++) { // take user input for 5 ints
@@ -41,9 +41,9 @@ public class Sortable
                 addInteger(sc.nextInt());
             }
             System.out.println(spacer);
-            System.out.printf("Inputted array[] : %s%n", intList); //display list before sort
+            System.out.printf("Inputted list : %s%n", intList); //display list before sort
             Collections.sort(intList); // sort list
-            System.out.printf("Sorted array[]   : %s%n", intList); //display list after sort
+            System.out.printf("Sorted list   : %s%n", intList); //display list after sort
         }
         else { //otherwise print msg and end program
             System.out.println("Invalid option. Please try again.");
