@@ -1,7 +1,4 @@
-package Tests;
-
 import org.junit.Test;
-import src.Sortable;
 import static org.junit.Assert.*;
 
 public class IntListTest {
