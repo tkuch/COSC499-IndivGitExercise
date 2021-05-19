@@ -7,3 +7,6 @@ On startup, the program will prompt the user to select a String or Integer array
 
 ### List of Strings
 If the user has chosen to sort a list of strings, then they will be prompted to enter 5 words. Once they have entered 5 words, the console will display the user's list, followed by the same list sorted in alphabetical order.
+
+### List of Integers
+Similarly, if the user has chosen to sort a list of integers, then they will be prompted to enter 5 integers. After the user has entered the integers, the console will again display the user's integer list, followed by the same list sorted in numerical ascending order.
