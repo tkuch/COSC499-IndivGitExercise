@@ -14,7 +14,7 @@ public class IntListTest {
 
     //Test that the function sizeOfIntList in Sortable returns a list size
     @Test
-    public void testListSize() {
-        assertEquals("Checking size of the integer list", 3, Sortable.sizeOfIntList());
+    public void testOfIntSize() {
+        assertEquals("Checking size of the integer list", 0, Sortable.sizeOfIntList());
     }
 }

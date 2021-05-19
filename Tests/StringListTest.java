@@ -5,7 +5,7 @@ public class StringListTest {
 
     // Test that the function addString in Sortable adds to the list
     @Test
-    public void testAdd() {
+    public void testStringAdd() {
         Sortable.addString("apple");
         Sortable.addString("banana");
         Sortable.addString("carrot");
@@ -16,7 +16,7 @@ public class StringListTest {
 
     // Test that the function sizeOfStringList in Sortable returns the list size
     @Test
-    public void testSize() {
-        assertEquals("Checking size of the list", 5, Sortable.sizeOfStringList());
+    public void testOfStringSize() {
+        assertEquals("Checking size of the list", 0, Sortable.sizeOfStringList());
     }
 }
